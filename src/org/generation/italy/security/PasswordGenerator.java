@@ -30,8 +30,8 @@ public class PasswordGenerator {
 		   System.out.println("Anno di nascita: " + year);
 		   
 		   int dayOfYear = day + month + year;
-		   System.out.println("Anno di nascita: " + dayOfYear);
+		   System.out.println("Totale data di nascita: " + dayOfYear);
 		   
-		   System.out.println("Password: " + name + '-' + surname + '-' + dayOfYear);
+		   System.out.println("Password: " + name + '-' + surname + '-' + clr + '-' + dayOfYear);
 	}
 }
